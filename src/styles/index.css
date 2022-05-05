@@ -1,0 +1,51 @@
+/* Fonts */
+@font-face {
+  font-family: "Font-Heavy";
+  src: url("/src/fonts/Gilroy-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Font-ExtraBold";
+  src: url("/src/fonts/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Font-Bold";
+  src: url("/src/fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Font-SemiBold";
+  src: url("/src/fonts/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Font-Medium";
+  src: url("/src/fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Font-Regular";
+  src: url("/src/fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Font-Thin";
+  src: url("/src/fonts/Gilroy-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Font-UltraLight";
+  src: url("/src/fonts/Gilroy-UltraLight.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "Font-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  color: #002243;
+  background: rgb(245, 244, 247);
+}

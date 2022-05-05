@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Navigation */
+  .covid-navigation {
+    @apply fixed top-0 right-0 w-full z-50;
+  }
+  .covid-navigation-container {
+    @apply flex justify-between bg-white h-[70px] ml-[70px] px-10  shadow-sm items-center;
+  }
+
+  /* Sidebar */
+  .covid-sidebar {
+    @apply w-[70px] min-h-screen h-screen bg-white fixed shadow-md flex flex-col justify-between;
+  }
+  .covid-sidebar-ul {
+    @apply w-full flex flex-col space-y-6;
+  }
+  .covid-sidebar-li {
+    @apply w-full flex justify-center flex-col items-center py-3 hover:bg-gray-20 transition-all ease-out duration-100 cursor-pointer;
+  }
+  .covid-sidebar-li.active {
+    @apply w-full border-primary border-r-2;
+  }
+  .covid-sidebar-icon {
+    @apply w-5 text-gray-40;
+  }
+
+  /* Body */
+  .covid-title {
+    @apply text-lg font-semibold;
+  }
+}
