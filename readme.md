@@ -84,13 +84,15 @@ Follow the steps below to run the application.
    ```sh
    npm install or yarn
    ```
-3. Enter your API url in `.env`
+3. Create `.env` file in the root folder
+
+4. Enter your API url in `.env`
 
     ```sh
     VITE_CONFIRMED_API_URL = 'https://api.covid19api.com/country/belgium/status/confirmed'
     VITE_CASES_API_URL = 'https://api.covid19api.com/country/belgium'
    ```
-4. Run the application
+5. Run the application
     ```sh
     npm run dev or yarn dev
    ```
