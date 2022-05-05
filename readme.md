@@ -86,14 +86,13 @@ Follow the steps below to run the application.
    ```
 3. Enter your API url in `.env`
    ```js
-   const VITE_CONFIRMED_API_URL = 'https://api.covid19api.com/country/belgium/status/confirmed';
-   const VITE_CASES_API_URL = 'https://api.covid19api.com/country/belgium';
+  VITE_CONFIRMED_API_URL = 'https://api.covid19api.com/country/belgium/status/confirmed'
+  VITE_CASES_API_URL = 'https://api.covid19api.com/country/belgium'
    ```
 4. Run the application
     ```sh
     npm run dev or yarn dev
    ```
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
@@ -101,7 +100,6 @@ Follow the steps below to run the application.
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -112,7 +110,6 @@ Andres Vergauwen - info@andresvergauwen.be
 
 Project Link: [https://github.com/andresdev02/covid-data-19](https://github.com/andresdev02/covid-data-19)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
