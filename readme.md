@@ -76,21 +76,20 @@ Follow the steps below to run the application.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/andresdev02/covid-data-19
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install or yarn
    ```
-4. Enter your API url in `.env`
+3. Enter your API url in `.env`
    ```js
    const VITE_CONFIRMED_API_URL = 'https://api.covid19api.com/country/belgium/status/confirmed';
    const VITE_CASES_API_URL = 'https://api.covid19api.com/country/belgium';
    ```
-5. Run the application
+4. Run the application
     ```sh
     npm run dev or yarn dev
    ```
